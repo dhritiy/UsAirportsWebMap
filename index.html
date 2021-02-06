@@ -83,7 +83,7 @@
     arprts = L.geoJson.ajax("assets/airports.geojson", {
         // assign a function to the onEachFeature parameter of the aiports object.
         // Then each (point) feature will bind a popup window.
-        // The content of the popup window is the value of `feature.properties.company`
+        // The content of the popup window is the value of `feature.properties`
         onEachFeature: function (feature, layer) {
             layer.bindPopup(feature.properties.AIRPT_NAME  + ' - ' + feature.properties.CITY + ', ' + feature.properties.STATE);
           // return feature.properties.CNTL_TWR;
@@ -113,7 +113,7 @@
         return colors[id];
     }
 
-    // 7. Set style function that sets fill color.md property equal to cell tower density
+    // 7. Set style function that sets fill color.md property equal to airport count
     function style(feature) {
         return {
             fillColor: setColor(feature.properties.count),
