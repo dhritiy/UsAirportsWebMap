@@ -1,7 +1,7 @@
 # UsAirportsWebMap
 Web Map Link: https://dhritiy.github.io/UsAirportsWebMap/
 
-![Map of US Airports](https://github.com/dhritiy/UsAirportsWebMap/blob/main/img/US%20Airports%20Map.PNG)
+![Map of US Airports](https://github.com/dhritiy/UsAirportsWebMap/blob/main/img/US%20Airports.PNG)
 
 For this project I created a map of airports across the United States, including Hawaii, Alaska, and outlying islands. I also wanted to display whether these airports had control towers or not, because the ones that do have them, use control towers to direct air traffic.
 
